@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body style="font-family: Arial, Helvetica, sans-serif">
+    <header>
+      <div class="logo">
+        <img src="assets/facebook.png" alt="logo" />
+      </div>
+
+      <div class="login">
+        <label for="email">Email atau Telepon:</label><br />
+        <input type="text" id="email" name="email" placeholder="Email" /><br />
+        <input type="checkbox" id="forget" name="forget" />
+        <label for="forget">Biarkan saya tetap masuk</label>
+      </div>
+
+      <div class="login">
+        <label for="pwd">Password:</label><br />
+        <input
+          type="password"
+          id="pwd"
+          name="pwd"
+          placeholder="Password"
+        /><br />
+        <p><a href="#">Lupa Kata Sandi Anda?</a></p>
+      </div>
+      <div class="login"><input type="submit" value="Masuk" id="masuk" /></div>
+    </header>
+
+    <content>
+      <div class="left">
+        <p>
+          Facebook dapat membantu anda <br />
+          terhubung dan <br />
+          berbagi dengan orang-orang <br />
+          dalam kehidupan <br />
+          anda
+        </p>
+        <img src="assets/logo.jpg" width="300px" height="300px" />
+      </div>
+
+      <div class="right">
+        <h1>Daftar</h1>
+        <p class="text1">
+          Dengan identitas asli untuk menjalin hubungan <br />
+          yang nyata
+        </p>
+        <input type="text" id="fname" name="fname" placeholder="Nama Depan" />
+        <input
+          type="text"
+          id="lname"
+          name="lname"
+          placeholder="Nama Belakang"
+        /><br />
+        <input
+          type="text"
+          id="email2"
+          name="email2"
+          placeholder="Email atau Nomor Ponsel"
+        /><br />
+        <input
+          type="text"
+          id="email2"
+          name="email2"
+          placeholder="Masukkan lagi email atau nomor ponsel"
+        /><br />
+        <input
+          type="password"
+          id="pwd2"
+          name="pwd2"
+          placeholder="Kata sandi baru"
+        />
+
+        <p>Tanggal lahir</p>
+        <div class="dropdown">
+          <select
+            name="date"
+            id="date"
+            onmousedown="if(this.options.length>4){this.size=4;}"
+            onmouseleave="this.onfocus"
+            onchange="this.size=0;"
+            onblur="this.size=0;"
+          >
+            <option value="" selected hidden>Tanggal:</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <option value="31">31</option>
+          </select>
+          <select name="month" id="month">
+            <option value="" selected hidden>Bulan:</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+          </select>
+          <select name="year" id="year">
+            <option value="" selected hidden>Tahun:</option>
+            <option value="2023">2023</option>
+            <option value="2022">2022</option>
+            <option value="2021">2021</option>
+            <option value="2020">2020</option>
+            <option value="2019">2019</option>
+            <option value="2018">2018</option>
+            <option value="2017">2017</option>
+            <option value="2016">2016</option>
+            <option value="2015">2015</option>
+          </select>
+        </div>
+
+        <div class="text2">
+          <p style="font-size: 10px">
+            <a href="#">mengapa saya harus memberikan tanggal lahir saya?</a>
+          </p>
+        </div>
+
+        <div class="radiobtn">
+          <input type="radio" name="optradio" />Perempuan
+          <input type="radio" name="optradio" />Laki-Laki
+        </div>
+
+        <p style="font-size: 12px; line-height: 15px">
+          Dengan mengeklik Daftar, Anda menyetujui ketentuan kami dan bahwa
+          <br />
+          Anda telah membaca Kebijakan Data kami, termasuk Penggunaan Kuki.
+        </p>
+
+        <input type="submit" value="Daftar" id="daftar" />
+        <hr />
+        <!--thematic break -->
+
+        <footer>
+          <a href="#">Buat Halaman</a> untuk selebriti, grup musik, atau bisnis.
+        </footer>
+      </div>
+    </content>
+  </body>
+</html>

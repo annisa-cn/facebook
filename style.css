@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-color: #00549f;
+    height: 105px;
+    width: 1350px;
+  }
+  header img {
+    margin-left: 200px;
+    margin-top: -60px;
+    width: 220px;
+    height: 220px;
+  }
+  header{
+    display: flex;
+  }
+  .login {
+    line-height: 25px;
+    color: white;
+    margin-top: 20px;
+    margin-right: -120px;
+    margin-left: 160px;
+    font-size: 12px;
+  }
+  .login a {
+    color: white;
+    text-decoration: none;
+  }
+  .text1 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    margin: 20px 0;
+  }
+  #email {
+    height: 23px;
+  }
+  #pwd {
+    height: 23px;
+  }
+  #masuk {
+    background-color: #0b69bb;
+    color: white;
+    padding: 6px;
+    border-style: none;
+    margin-top: 25px;
+    margin-left: -25px;
+  }
+  form ul {
+    list-style-type: none;
+  }
+  form ul li {
+    display: inline-block;
+  }
+  content {
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+    padding: 50px;
+    width: 1250px;
+    background-color: #ecf0f1;
+  }
+  .left p {
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 28px;
+    margin-left: -20px;
+  }
+  .right {
+    overflow: hidden;
+  }
+  .text2 {
+    float: right;
+    display: block;
+    position: relative;
+    top: -35px;
+    left: -90px;
+  }
+  #fname {
+    padding: 8px;
+    width: 250px;
+    border-width: 2px;
+    border-radius: 5px;
+    margin-bottom: 12px;
+  }
+  #lname {
+    padding: 8px;
+    width: 250px;
+    border-width: 2px;
+    border-radius: 5px;
+    margin-bottom: 12px;
+  }
+  #email2 {
+    padding: 8px;
+    width: 525px;
+    border-width: 2px;
+    border-radius: 5px;
+    margin-bottom: 12px;
+  }
+  #pwd2 {
+    padding: 8px;
+    width: 525px;
+    border-width: 2px;
+    border-radius: 5px;
+    margin-bottom: 12px;
+  }
+  .dropdown {
+    margin: 12px 0;
+  }
+  #date {
+    padding: 6px 0;
+  }
+  #month {
+    padding: 6px 0;
+  }
+  #year {
+    padding: 6px 0;
+  }
+  .radiobtn {
+    margin: 12px 0;
+  }
+  input[type="radio"]  {
+    margin-right: 8px;
+  }
+  #daftar {
+    background-color: #2ecc71;
+    border-radius: 5px;
+    padding: 4px 70px;
+    color: white;
+    border-style: none;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: 12px;
+    margin-bottom: 22px;
+  }
+  footer {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
